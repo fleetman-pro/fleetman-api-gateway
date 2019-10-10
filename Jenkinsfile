@@ -1,5 +1,5 @@
 pipeline {
-   agent { label 'cluster' } 
+   agent any
 
    environment {
      // You must set the following environment variables
